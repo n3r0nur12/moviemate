@@ -1,6 +1,10 @@
 # MovieMate Web Application
 MovieMate is a well developed web application that matches users with each other based on their ratings of movies. We aim to match users with the same movie enjoyment by running highly selective algorithms in the background.
 
+## Technologies Used
+Front-end Development: React.js, Material-UI
+Back-end Development: Spring Boot, Spring Data JPA, MySQL
+
 ## Simple Run of the Application
 Users can view detailed information and trailer videos of the movies at the Movies page in MovieMate.
 
