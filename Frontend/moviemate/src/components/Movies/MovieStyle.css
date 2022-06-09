@@ -1,0 +1,42 @@
+.Media {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #282c34;
+    border-radius: 10px;
+    position: relative;
+    font-family: 'Karla', sans-serif;
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .Media:hover {
+    background-color: #2c3443;
+    color: white;
+  }
+  
+  @media (max-width: 550px) {
+    .Media {
+      width: 46%;
+    }
+  }
+  
+  .Poster {
+    border-radius: 10px;
+  }
+  
+  .MovieTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0;
+  }
+  
+  .MovieSubtitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px;
+    padding-bottom: 3px;
+  }
